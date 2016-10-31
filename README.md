@@ -26,9 +26,9 @@ load module: var cookieParser = require('cookie-parser');
 app assignment: app.use(cookieParser('secret'))
 
 
-Express Cookies: See [Slides]() and [LINK]()
+Express Cookies: See [Slides](https://docs.google.com/presentation/d/1GEPgDL3SmTis5ifQxx29t1PhGfqFDM3gpWsdpfYPX4E/edit) and [Expressjs cookie documentation](http://expressjs.com/en/api.html#res.cookie)
 
-Assigning a Cookie: see [index.js]()
+Assigning a Cookie: see [index.js](https://github.com/mechurat/week8a-cookies/blob/master/index.js)
 * ServerID: 8081
 * // home page
 * // cookie creation (use /treat)
@@ -47,7 +47,7 @@ var name = req.cookies.name
 
 * npm install express-session --save
 
-see [index.js]() || session code is **uncommented** in the same areas as cookies
+see [index.js](https://github.com/mechurat/week8a-cookies/blob/master/index.js) || session code is **uncommented** in the same areas as cookies
 
 ### Flash Messages in Sessions
 This is **included** in express-session
